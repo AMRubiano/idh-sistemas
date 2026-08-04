@@ -1,361 +1,285 @@
 # PROJECT_VISION.md
 
-## 1. Finalidad del documento
+# Visión Estratégica del Proyecto
+## IDH Sistemas de Gestión
 
-Este documento define la visión estratégica, funcional y tecnológica del proyecto IDH Sistemas de Gestión.
-
-Su objetivo es orientar todas las decisiones futuras relacionadas con:
-
-- Diseño.
-- Desarrollo.
-- Arquitectura.
-- Seguridad.
-- Experiencia de usuario.
-- Contenidos.
-- Posicionamiento.
-- Funcionalidades.
-- Automatización.
-- Crecimiento de la plataforma.
-
-Este archivo debe consultarse junto con:
-
-1. `AI_CONTEXT.md`
-2. `CODEX_RULES.md`
-3. `ARCHITECTURE.md`
-4. `SECURITY.md`
-5. `CHANGELOG.md`
-6. `README.md`
-
-La visión del proyecto debe mantenerse estable, aunque las soluciones técnicas concretas puedan evolucionar.
+Versión del documento: 1.0
 
 ---
 
-## 2. Identidad del proyecto
+# 1. Finalidad del documento
 
-IDH Sistemas de Gestión debe consolidarse como una plataforma corporativa profesional orientada a empresas, instituciones, asociaciones y profesionales que necesitan mejorar sus procesos, reducir riesgos y fortalecer sus sistemas de gestión.
+Este documento define la visión estratégica del proyecto **IDH Sistemas de Gestión**.
 
-La plataforma debe representar una organización:
+Su propósito es servir como guía para todas las decisiones relacionadas con el diseño, desarrollo, arquitectura, contenidos, experiencia de usuario y evolución funcional de la plataforma.
 
-- Profesional.
-- Seria.
-- Transparente.
-- Confiable.
-- Segura.
-- Moderna.
-- Cercana.
-- Preparada.
-- Flexible.
-- Capaz de acompañar procesos complejos.
+Mientras que la arquitectura describe cómo está construido el sistema, este documento responde a una pregunta mucho más importante:
 
-La web no debe transmitir improvisación, saturación ni fragilidad.
+> ¿Qué queremos construir y por qué?
 
-Cada elemento visual, textual y funcional debe reforzar la confianza en IDH.
+Toda decisión técnica deberá respetar la visión descrita en este documento.
+
+Debe consultarse conjuntamente con:
+
+- README.md
+- ARCHITECTURE.md
+- SECURITY.md
+- CODEX_RULES.md
+- AI_CONTEXT.md
+- CHANGELOG.md
+- DECISIONS.md
 
 ---
 
-## 3. Propósito principal
+# 2. Nuestra visión
 
-El propósito de la plataforma es convertir la gestión organizacional en una ventaja para cada cliente.
+IDH Sistemas de Gestión no pretende ser únicamente una página web corporativa.
 
-La web debe ayudar a comunicar que IDH no ofrece únicamente servicios aislados, sino acompañamiento integral para:
+Nuestra visión es construir una plataforma digital que represente la forma de trabajar de IDH, transmitiendo confianza, profesionalidad y conocimiento desde el primer contacto.
 
-- Analizar una organización.
-- Detectar necesidades.
-- Diseñar soluciones.
-- Implantar mejoras.
-- Formar equipos.
-- Gestionar riesgos.
-- Evaluar resultados.
-- Mantener procesos de mejora continua.
+Cada sección, cada texto, cada componente y cada funcionalidad deben reforzar la imagen de una organización seria, rigurosa y cercana.
 
-La plataforma debe facilitar que una persona comprenda rápidamente:
+La tecnología nunca será el objetivo.
+
+Será únicamente la herramienta para ofrecer una mejor experiencia a nuestros clientes.
+
+---
+
+# 3. Misión del proyecto
+
+La misión de la plataforma es ayudar a organizaciones de cualquier tamaño a mejorar su gestión mediante servicios de consultoría, formación y acompañamiento profesional.
+
+La plataforma debe facilitar que cualquier visitante pueda comprender rápidamente:
 
 - Qué hace IDH.
-- A quién se dirige.
-- Qué problemas resuelve.
 - Cómo trabaja.
 - Qué servicios ofrece.
-- Cómo contactar.
-- Por qué puede confiar en la organización.
+- Qué problemas resuelve.
+- Qué valor aporta.
+- Cómo puede contactar.
+
+Toda la experiencia debe transmitir claridad y confianza.
 
 ---
 
-## 4. Visión a largo plazo
+# 4. Visión a largo plazo
 
-El proyecto debe evolucionar progresivamente desde una web corporativa hacia una plataforma integral de gestión, consultoría, formación y acompañamiento profesional.
+El proyecto nace como una web corporativa moderna, pero está concebido desde el inicio como la base de una futura plataforma integral.
 
-La visión final contempla una solución capaz de integrar:
+La evolución prevista contempla la incorporación progresiva de módulos como:
 
-- Web corporativa.
-- Gestión de clientes.
-- Solicitudes comerciales.
-- Servicios.
-- Proyectos.
-- Consultorías.
-- Auditorías.
-- Formación.
-- Documentación.
-- Seguimiento.
-- Informes.
-- Indicadores.
-- Comunicaciones.
-- Automatizaciones.
 - Área privada.
-- Gestión administrativa.
-- Contenidos públicos.
+- Gestión documental.
+- Gestión de clientes.
+- Gestión de proyectos.
+- Auditorías.
+- Sistemas de gestión.
+- Formación.
+- Indicadores.
+- Automatizaciones.
+- Comunicaciones.
+- Integraciones externas.
 - Herramientas internas.
+- APIs.
 
-Esta evolución debe realizarse por fases.
+Cada nueva funcionalidad deberá integrarse respetando la arquitectura existente.
 
-No se debe construir toda la plataforma de una sola vez.
-
----
-
-## 5. Principios estratégicos
-
-El proyecto debe guiarse por estos principios:
-
-### 5.1. Claridad
-
-La información debe ser fácil de encontrar, comprender y utilizar.
-
-La plataforma debe evitar:
-
-- Lenguaje innecesariamente complejo.
-- Navegación confusa.
-- Secciones repetidas.
-- Exceso de contenido.
-- Elementos que compitan por la atención.
-- Procesos con demasiados pasos.
+Nunca se desarrollará una solución aislada o improvisada.
 
 ---
 
-### 5.2. Confianza
+# 5. Identidad de la plataforma
 
-La confianza debe ser uno de los objetivos principales del diseño.
+La plataforma debe transmitir permanentemente los siguientes valores:
 
-Debe transmitirse mediante:
-
-- Información verificable.
-- Datos de contacto claros.
-- Identidad visual coherente.
-- Contenido bien redactado.
-- Formularios seguros.
+- Profesionalidad.
 - Transparencia.
-- Ausencia de afirmaciones falsas.
-- Navegación predecible.
-- Tratamiento responsable de los datos.
-
----
-
-### 5.3. Seguridad
-
-La seguridad debe formar parte del diseño desde el principio.
-
-No debe añadirse únicamente al final.
-
-Toda funcionalidad nueva debe considerar:
-
-- Autenticación.
-- Autorización.
-- Privacidad.
-- Validación.
-- Protección frente a abuso.
-- Gestión segura de archivos.
-- Registros.
-- Recuperación.
-- Copias de seguridad.
-- Exposición mínima de datos.
-
----
-
-### 5.4. Profesionalidad
-
-La plataforma debe mantener una imagen corporativa sólida.
-
-Debe evitar:
-
-- Efectos excesivos.
-- Colores desordenados.
-- Elementos visuales infantiles.
-- Textos poco precisos.
-- Componentes inconsistentes.
-- Diseño improvisado.
-- Información incompleta presentada como definitiva.
-
----
-
-### 5.5. Transparencia
-
-La plataforma debe explicar de manera clara:
-
-- Qué servicios se ofrecen.
-- Qué alcance tienen.
-- Cómo se desarrolla el acompañamiento.
-- Qué datos se solicitan.
-- Para qué se utilizan.
-- Cómo contactar.
-- Qué información está pendiente de confirmar.
-- Qué resultados pueden esperarse razonablemente.
-
-No deben publicarse promesas que no puedan demostrarse.
-
----
-
-### 5.6. Accesibilidad
-
-La web debe poder ser utilizada por el mayor número posible de personas.
-
-Debe considerar:
-
-- Contraste.
-- Tamaño de texto.
-- Navegación por teclado.
-- Etiquetas accesibles.
-- Lectores de pantalla.
-- Estados de foco.
-- Mensajes de error claros.
-- Reducción de movimiento.
-- Estructura semántica.
-- Diseño responsive.
-
----
-
-### 5.7. Escalabilidad
-
-La aplicación debe poder crecer sin perder coherencia.
-
-La evolución debe realizarse mediante:
-
-- Componentes reutilizables.
-- Módulos independientes.
-- Datos centralizados.
-- Roles y permisos.
-- Servicios desacoplados.
-- Documentación actualizada.
-- Migraciones controladas.
-- Pruebas automatizadas.
-
----
-
-### 5.8. Mantenibilidad
-
-El sistema debe ser comprensible para futuras personas desarrolladoras y herramientas de inteligencia artificial.
-
-Cada cambio importante debe dejar actualizados:
-
-- Código.
-- Pruebas.
-- Documentación.
-- Arquitectura.
+- Cercanía.
+- Confianza.
+- Innovación.
 - Seguridad.
-- Changelog.
+- Rigor técnico.
+- Responsabilidad.
+- Mejora continua.
+- Calidad.
+
+Estos valores deben reflejarse tanto en el diseño visual como en el funcionamiento interno del sistema.
 
 ---
 
-## 6. Público objetivo
+# 6. Principios estratégicos
 
-La plataforma debe dirigirse principalmente a:
+## Claridad
+
+Toda la información debe ser fácil de comprender.
+
+Debe evitarse el exceso de texto, la navegación compleja y cualquier elemento que distraiga del objetivo principal.
+
+---
+
+## Confianza
+
+La confianza constituye el principal activo de la plataforma.
+
+Debe construirse mediante:
+
+- información verificable;
+- comunicación transparente;
+- identidad visual coherente;
+- procesos claros;
+- contenido de calidad;
+- protección de los datos.
+
+---
+
+## Profesionalidad
+
+Cada detalle debe transmitir que detrás del proyecto existe una organización sólida.
+
+No deben utilizarse recursos visuales innecesarios, efectos excesivos o elementos que resten credibilidad.
+
+---
+
+## Seguridad
+
+La seguridad forma parte del diseño.
+
+No constituye una funcionalidad adicional.
+
+Toda nueva característica deberá evaluarse desde el punto de vista de la seguridad antes de ser desarrollada.
+
+---
+
+## Privacidad
+
+El tratamiento de datos personales deberá respetar siempre los principios de minimización, necesidad y proporcionalidad.
+
+La confianza del usuario siempre tendrá prioridad sobre la obtención de información.
+
+---
+
+## Accesibilidad
+
+La plataforma deberá ser utilizable por el mayor número posible de personas.
+
+La accesibilidad no será considerada una mejora futura, sino un requisito del propio diseño.
+
+---
+
+## Escalabilidad
+
+Toda decisión deberá permitir el crecimiento del sistema sin necesidad de reestructurar el proyecto.
+
+La arquitectura deberá facilitar la incorporación de nuevas funcionalidades de manera progresiva.
+
+---
+
+## Mantenibilidad
+
+El proyecto debe poder mantenerse durante muchos años.
+
+La documentación deberá evolucionar al mismo ritmo que el código.
+
+Cada mejora importante deberá dejar actualizado el conocimiento del proyecto.
+
+---
+
+# 7. Público objetivo
+
+La plataforma está dirigida principalmente a:
 
 - Empresas.
-- Instituciones.
+- Instituciones públicas.
+- Administraciones.
 - Asociaciones.
-- Entidades privadas.
-- Entidades públicas.
-- Equipos profesionales.
-- Personas responsables de calidad.
-- Personas responsables de prevención.
-- Personas responsables de gestión.
-- Organizaciones que necesitan implantar sistemas.
-- Profesionales que requieren formación.
-- Organizaciones que necesitan acompañamiento técnico.
+- Fundaciones.
+- Organizaciones del tercer sector.
+- Centros educativos.
+- Equipos directivos.
+- Responsables de calidad.
+- Responsables de prevención.
+- Responsables de medio ambiente.
+- Responsables de seguridad.
+- Profesionales que requieren asesoramiento especializado.
 
-El lenguaje debe ser profesional, pero comprensible.
-
-Debe evitarse una comunicación excesivamente técnica cuando no sea necesaria.
+La comunicación deberá ser profesional, cercana y comprensible para perfiles tanto técnicos como no técnicos.
 
 ---
 
-## 7. Propuesta de valor
+# 8. Propuesta de valor
 
-La propuesta de valor central es:
+La propuesta de valor del proyecto puede resumirse en una única idea:
 
-> IDH ayuda a convertir la gestión en una ventaja para cada organización mediante soluciones, innovación, formación y gestión del riesgo.
+> Ayudamos a las organizaciones a convertir una correcta gestión en una ventaja competitiva sostenible.
 
-Esta propuesta debe desarrollarse a través de mensajes relacionados con:
+Esta propuesta se desarrolla mediante cuatro pilares fundamentales:
 
-- Seguridad.
-- Calidad.
-- Prevención.
-- Mejora.
-- Innovación.
-- Sostenibilidad.
-- Cumplimiento.
-- Eficiencia.
+- Consultoría.
 - Formación.
-- Acompañamiento integral.
+- Implantación.
+- Mejora continua.
 
-La propuesta de valor debe mostrarse con ejemplos y contenidos reales cuando estén disponibles.
-
----
-
-## 8. Posicionamiento deseado
-
-IDH debe posicionarse como una organización que:
-
-- Comprende las necesidades de cada cliente.
-- Diseña soluciones adaptadas.
-- Trabaja con rigor.
-- Acompaña durante todo el proceso.
-- Integra consultoría y formación.
-- Gestiona riesgos.
-- Facilita la mejora continua.
-- Aporta claridad.
-- No ofrece respuestas genéricas.
-- Mantiene una relación cercana y profesional.
-
-La web debe diferenciarse de una página genérica de consultoría.
+La plataforma deberá reflejar permanentemente estos cuatro pilares.
 
 ---
 
-## 9. Experiencia de usuario
+# 9. Experiencia de usuario
 
-La experiencia debe ser intuitiva desde el primer acceso.
+La experiencia debe ser intuitiva desde el primer segundo.
 
-Una persona debería poder:
+Un visitante debería ser capaz de:
 
 1. Comprender qué hace IDH.
-2. Identificar si sus necesidades encajan.
-3. Conocer los servicios.
-4. Ver los sectores atendidos.
-5. Conocer las normas y sistemas trabajados.
-6. Entender la metodología.
-7. Evaluar la experiencia de IDH.
-8. Contactar fácilmente.
+2. Saber si sus necesidades encajan con los servicios ofrecidos.
+3. Identificar rápidamente el valor diferencial.
+4. Conocer la metodología de trabajo.
+5. Generar confianza suficiente para establecer contacto.
 
-La portada debe mantener una progresión narrativa clara:
+La navegación debe resultar natural y sin esfuerzo.
 
-```text
-Propuesta de valor
-    ↓
-Experiencia y datos destacados
-    ↓
-Servicios
-    ↓
-Sectores
-    ↓
-Normas y sistemas
-    ↓
-Metodología
-    ↓
-Clientes
-    ↓
-Testimonios
-    ↓
-Sobre IDH
-    ↓
-Razones para elegir IDH
-    ↓
-Contacto
-    ↓
-Footer
+Cada sección debe conducir de forma lógica hacia la siguiente.
+
+---
+
+# 10. Principios de evolución
+
+El crecimiento del proyecto seguirá siempre un enfoque incremental.
+
+Antes de incorporar nuevas funcionalidades deberán cumplirse tres condiciones:
+
+- resolver un problema real;
+- mantener la simplicidad del sistema;
+- respetar la arquitectura existente.
+
+No se desarrollarán funcionalidades únicamente porque sean técnicamente posibles.
+
+Cada incorporación deberá aportar un valor claro para los usuarios.
+
+---
+
+# 11. Inteligencia Artificial como parte del proyecto
+
+El proyecto está diseñado para facilitar la colaboración entre personas y sistemas de Inteligencia Artificial.
+
+La IA no debe limitarse a generar código.
+
+Debe actuar como una herramienta de apoyo capaz de comprender el contexto, mantener la coherencia del proyecto y respetar su visión estratégica.
+
+Toda modificación realizada mediante IA deberá perseguir exactamente los mismos estándares de calidad que una modificación realizada por una persona desarrolladora.
+
+---
+
+# 12. Éxito del proyecto
+
+El éxito de IDH Sistemas de Gestión no se medirá únicamente por el número de visitas o por el volumen de funcionalidades implementadas.
+
+El verdadero éxito consistirá en construir una plataforma que:
+
+- inspire confianza desde el primer contacto;
+- represente fielmente los valores de IDH;
+- sea técnicamente sólida;
+- pueda evolucionar durante muchos años;
+- resulte sencilla de mantener;
+- facilite el trabajo tanto de las personas como de las herramientas de Inteligencia Artificial.
+
+Cada decisión tomada durante el desarrollo deberá contribuir a ese objetivo.
