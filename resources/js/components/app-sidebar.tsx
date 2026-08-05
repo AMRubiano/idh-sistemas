@@ -1,5 +1,10 @@
 import { Link, usePage } from '@inertiajs/react';
-import { BookOpen, FolderGit2, LayoutGrid } from 'lucide-react';
+import {
+    BookOpen,
+    FolderGit2,
+    Inbox,
+    LayoutGrid,
+} from 'lucide-react';
 import AppLogo from '@/components/app-logo';
 import { NavFooter } from '@/components/nav-footer';
 import { NavMain } from '@/components/nav-main';
@@ -19,8 +24,15 @@ import type { NavItem } from '@/types';
 
 export function AppSidebar() {
     const page = usePage();
-    const dashboardUrl = page.props.currentTeam
-        ? dashboard(page.props.currentTeam.slug)
+
+    const currentTeamSlug = page.props.currentTeam?.slug;
+
+    const dashboardUrl = currentTeamSlug
+        ? dashboard(currentTeamSlug)
+        : '/';
+
+    const contactRequestsUrl = currentTeamSlug
+        ? `/${currentTeamSlug}/contact-requests`
         : '/';
 
     const mainNavItems: NavItem[] = [
@@ -28,6 +40,11 @@ export function AppSidebar() {
             title: 'Dashboard',
             href: dashboardUrl,
             icon: LayoutGrid,
+        },
+        {
+            title: 'Solicitudes de contacto',
+            href: contactRequestsUrl,
+            icon: Inbox,
         },
     ];
 
@@ -56,6 +73,7 @@ export function AppSidebar() {
                         </SidebarMenuButton>
                     </SidebarMenuItem>
                 </SidebarMenu>
+
                 <SidebarMenu>
                     <SidebarMenuItem>
                         <TeamSwitcher />

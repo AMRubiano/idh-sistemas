@@ -67,4 +67,12 @@ class ContactRequest extends Model
             self::STATUS_CLOSED => 'Cerrada',
         ];
     }
+    /**
+    * Notas internas asociadas a la solicitud.
+    */
+    public function notes(): HasMany
+    {
+        return $this->hasMany(ContactRequestNote::class)
+        ->latest();
+}
 }

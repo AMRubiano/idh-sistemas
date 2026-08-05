@@ -1,5 +1,6 @@
 import { useForm } from '@inertiajs/react';
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 
 type ContactFormData = {
     name: string;

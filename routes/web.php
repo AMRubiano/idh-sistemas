@@ -17,6 +17,24 @@ Route::prefix('{current_team}')
     ->group(function () {
         Route::get('dashboard', DashboardController::class)
             ->name('dashboard');
+
+        Route::get(
+            'contact-requests',
+            [ContactRequestController::class, 'index'],
+        )->name('contact-requests.index');
+        Route::get(
+            'contact-requests/{contactRequest}',
+            [ContactRequestController::class, 'show'],
+        )->name('contact-requests.show');
+
+        Route::patch(
+            'contact-requests/{contactRequest}/status',
+            [ContactRequestController::class, 'updateStatus'],
+        )->name('contact-requests.update-status');
+        Route::post(
+            'contact-requests/{contactRequest}/notes',
+            [ContactRequestController::class, 'storeNote'],
+        )->name('contact-requests.notes.store');
     });
 
 Route::middleware(['auth'])->group(function () {
